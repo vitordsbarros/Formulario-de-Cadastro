@@ -1,0 +1,133 @@
+/* Reset de estilo e definição de fonte base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+
+/* Estilo do corpo: centraliza o conteúdo na tela */
+body {
+    background-color: #dedad7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+/* Container principal do formulário */
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #fafafa;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    max-width: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Área da imagem ilustrativa */
+.form-image {
+    flex: 1;
+    background-color: #8a8a8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* Imagem SVG: redimensiona proporcionalmente */
+.form-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Área do formulário */
+.form {
+    flex: 1;
+    padding: 2rem;
+}
+
+/* Cabeçalho do formulário */
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-header h1 {
+    font-size: 1.5rem;
+}
+
+/* Agrupamento de campos de entrada */
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Estilo individual de campos de entrada */
+.input-box {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box input {
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Área dos inputs de gênero */
+.gender-inputs {
+    margin-top: 1rem;
+}
+
+.gender-title h6 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.gender-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+/* Botão de continuar */
+.continue-button {
+    margin-top: 1.5rem;
+}
+
+.continue-button button {
+    width: 100%;
+    background-color: #72939c;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .form-image {
+        display: none;
+    }
+}
