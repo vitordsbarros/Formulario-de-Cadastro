@@ -4,14 +4,16 @@ Um projeto de formulário de cadastro moderno, responsivo e elegante, inspirado 
 
 ---
 
-## 📸 Preview
-
-![Formulário de Cadastro](assets/img/undraw_enter-password_1kl4.svg)
-
----
-
 ## 📁 Estrutura de Pastas
 
+/ Workspace
+│
+├── assets/
+│ ├── css/
+│ │ └── style.css
+│ └── img/
+│ └── undraw_enter-password_1kl4.svg
+├── index.html
 
 ---
 
