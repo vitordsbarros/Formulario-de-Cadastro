@@ -6,6 +6,7 @@ Um projeto de formulário de cadastro moderno, responsivo e elegante, inspirado 
 
 ## 📁 Estrutura de Pastas
 
+```bash
 Workspace
 ├── assets/
 │   └── CSS/
@@ -13,7 +14,7 @@ Workspace
 ├── img/
 │   └── undraw_enter-password_1kl4.svg
 └── Index.html
-
+```
 ---
 
 ## 🚀 Funcionalidades
