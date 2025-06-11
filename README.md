@@ -6,7 +6,7 @@ Um projeto de formulário de cadastro moderno, responsivo e elegante, inspirado 
 
 ## 📁 Estrutura de Pastas
 
-/ Workspace
+Workspace
 │
 ├── assets/
 │ ├── css/
@@ -44,4 +44,4 @@ Um projeto de formulário de cadastro moderno, responsivo e elegante, inspirado 
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/vitordsbarros/Formulario-de-Cadastro
