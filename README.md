@@ -7,13 +7,12 @@ Um projeto de formulário de cadastro moderno, responsivo e elegante, inspirado 
 ## 📁 Estrutura de Pastas
 
 Workspace
-│
 ├── assets/
-│ ├── css/
-│ │ └── style.css
-│ └── img/
-│ └── undraw_enter-password_1kl4.svg
-├── index.html
+│   └── CSS/
+│       └─ style.css
+├── img/
+│   └── undraw_enter-password_1kl4.svg
+└── Index.html
 
 ---
 
