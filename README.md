@@ -32,6 +32,12 @@ Workspace
 
 ---
 
+## 📸 Demonstração
+
+<img src="https://i.imgur.com/6B4c3kT.png)" alt="Demonstração do Site" width="1000">
+
+---
+
 ## 💡 Tecnologias Utilizadas
 
 - **HTML5** – Estruturação do conteúdo
